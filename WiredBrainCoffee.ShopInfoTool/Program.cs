@@ -7,6 +7,8 @@ namespace WiredBrainCoffee.ShopInfoTool
         static void Main(string[] args)
         {
             Console.WriteLine("Hello wired brain coffee!");
+
+            Console.WriteLine("Write help to list down help commands");
         }
     }
 }
