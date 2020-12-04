@@ -12,5 +12,6 @@ namespace WiredBrainCoffee.DataAccess
             yield return new CoffeeShop { BeansInStock = 1, Location = "Rajasthan" };
             yield return new CoffeeShop { BeansInStock = 5, Location = "UP" };
             yield return new CoffeeShop { BeansInStock = 10, Location = "MP" };
+        }
     }
 }
