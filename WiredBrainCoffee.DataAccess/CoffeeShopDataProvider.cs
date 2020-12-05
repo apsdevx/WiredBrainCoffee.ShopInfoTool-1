@@ -9,9 +9,21 @@ namespace WiredBrainCoffee.DataAccess
     {
         public IEnumerable<CoffeeShop> LoadCoffeeShops()
         {
-            yield return new CoffeeShop { BeansInStock = 1, Location = "Rajasthan" };
-            yield return new CoffeeShop { BeansInStock = 5, Location = "UP" };
-            yield return new CoffeeShop { BeansInStock = 10, Location = "MP" };
+            yield return new CoffeeShop
+            {
+                BeansInStock = 1,
+                Location = "Rajasthan"
+            };
+            yield return new CoffeeShop
+            {
+                BeansInStock = 5,
+                Location = "UP"
+            };
+            yield return new CoffeeShop
+            {
+                BeansInStock = 10,
+                Location = "MP"
+            };
         }
     }
 }

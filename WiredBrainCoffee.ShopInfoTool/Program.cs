@@ -8,10 +8,10 @@ namespace WiredBrainCoffee.ShopInfoTool
         {
             Console.WriteLine("Hello wired brain coffee!");
 
-            if(true)
+            if (true)
                 Console.WriteLine("Write help to list down help commands");
-            
-            
+
+
 
         }
     }
