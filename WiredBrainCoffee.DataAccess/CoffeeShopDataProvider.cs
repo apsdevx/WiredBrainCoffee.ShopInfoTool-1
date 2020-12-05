@@ -22,7 +22,7 @@ namespace WiredBrainCoffee.DataAccess
             yield return new CoffeeShop
             {
                 BeansInStock = 10,
-                Location = "MP"
+                Location = "Madhya Pradesh"
             };
         }
     }
